@@ -8,7 +8,7 @@
     <!-- SoC : MT6737m -->
 
     <!-- device tree -->
-    <project path="device/motorola/woods" name="OriginalBugsX/device_motorola_woods" remote="github" revision="l0s-14.1" />
+    <project path="device/motorola/woods" name="OriginalBugsX/device_motorola_woods" remote="github" revision="los-14.1" />
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="OriginalBugsX/kernel_motorola_woods" remote="github" revision="master" />
     <!-- vendor -->
