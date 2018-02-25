@@ -8,11 +8,11 @@
     <!-- SoC : MT6737m -->
 
     <!-- device tree -->
-    <project path="device/motorola/woods" name="OriginalBugsX/device_motorola_woods" remote="github" revision="lineage-15.1" />
+    <project path="device/motorola/woods" name="OriginalBugsX/device_motorola_woods" remote="github" revision="l0s-14.1" />
     <!-- kernel -->
-    <project path="kernel/motorola/woods" name="OriginalBugsX/kernel_motorola_woods" remote="github" revision="lineage-15.1" />
+    <project path="kernel/motorola/woods" name="OriginalBugsX/kernel_motorola_woods" remote="github" revision="master" />
     <!-- vendor -->
-    <project path="vendor/motorola/woods" name="OriginalBugsX/vendor_motorola_woods" remote="github" revision="lineage-15.0" />
+    <project path="vendor/motorola/woods" name="OriginalBugsX/vendor_motorola_woods" remote="github" revision="master" />
     <!-- toolchain -->
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="OriginalBugsX/prebuilts_gcc_arm_eabi_4.9" remote="github" revision="master" />
 </manifest>
