@@ -1,4 +1,4 @@
-_LineageOS 15.1 for Moto E4 Device_
+_LineageOS 14.1 for Moto E4 Device_
 ------------------------------------
 
 ![Motorola Moto E4](/device/motorola-moto-e4.jpg "Motorola Moto E4")
@@ -6,17 +6,17 @@ _LineageOS 15.1 for Moto E4 Device_
 
 Create directories
 ```
-	$ mkdir lineage-15.1
-	$ cd lineage-15.1
+	$ mkdir los-14.1
+	$ cd los-14.1
 ```
 the local manifests:
 ```
-	$ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
-	$ git clone https://github.com/OriginalBugsX/local_manifest -b lineage-15.1 .repo/local_manifests
+	$ repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+	$ git clone https://github.com/OriginalBugsX/local_manifest -b los-14.1 .repo/local_manifests
 ```
 Then sync up with this command:
 ```
-	$ repo sync --force-sync -q  ( this is a silent sync )
+	$ repo sync --force-sync -q      ##( this is a silent sync )
 ```
 -------------
  
