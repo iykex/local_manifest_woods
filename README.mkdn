@@ -12,7 +12,7 @@ Create directories
 the local manifests:
 ```
 	$ repo init -u git://github.com/LineageOS/android.git -b cm-14.1
-	$ git clone https://github.com/iykequame/local_manifest -b los-14.1 .repo/local_manifests
+	$ git clone https://izaqkull@bitbucket.org/dev4woods/local_manifest.git -b los-14.1 .repo/local_manifests
 ```
 Then sync up with this command:
 ```
