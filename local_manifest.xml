@@ -18,5 +18,5 @@
     <!-- toolchain/GNU-->
     <project path="prebuilts/gcc/linux-x86/arm/arm-gnu-7.x" name="iykequame/gcc-prebuilts" remote="github" revision="arm-gnu-7.x" />
     <!-- toolchain/LINARO-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.x" name="iykequame/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" /
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.x" name="iykequame/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" />
 </manifest>
