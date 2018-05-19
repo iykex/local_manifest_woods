@@ -16,7 +16,7 @@ the local manifests:
 ```
 Then sync up with this command:
 ```
-	$ repo sync --force-sync -q      ##( this is a silent sync )
+	$ repo sync -c -j16 --force-sync --no-clone-bundle --no-tags -q      ##( this is a silent sync )
 ```
 -------------
  
