@@ -6,12 +6,12 @@ _LineageOS 14.1 for Moto E4 Device_
 
 Create directories
 ```
-	$ mkdir los-14.1
-	$ cd los-14.1
+	$ mkdir aex
+	$ cd los-aex
 ```
 the local manifests:
 ```
-	$ repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+	$ repo init -u git://github.com/AospExtended/manifest.git -b 7.x
 	$ git clone https://github.com/iykequame/local_manifest_woods -b los-14.1 .repo/local_manifests
 ```
 Then sync up with this command:
