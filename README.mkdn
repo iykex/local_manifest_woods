@@ -12,7 +12,7 @@ Create directories
 the local manifests:
 ```
 	$ repo init -u git://github.com/AospExtended/manifest.git -b 7.x
-	$ git clone https://github.com/iykequame/local_manifest_woods -b los-14.1 .repo/local_manifests
+	$ git clone https://github.com/iykequame/local_manifest_woods -b AEX-7.x .repo/local_manifests
 ```
 Then sync up with this command:
 ```
@@ -27,8 +27,8 @@ _Building from source_
 	$ ./check-patches.sh
 	$ ./apply-patches.sh
 	$ . build/envsetup.sh
-	$ lunch lineage_woods-userdebug
-	$ brunch woods
+	$ lunch aosp_woods-userdebug
+	$ mka aex -jx
 ```
 -------------
  
