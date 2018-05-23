@@ -13,6 +13,8 @@
     <project path="kernel/motorola/woods" name="iykequame/kernel_motorola_woods" remote="github" revision="lineage-15.1" />
     <!-- vendor -->
     <project path="vendor/motorola/woods" name="iykequame/vendor_motorola_woods" remote="github" revision="lineage-15.1" />
+    <!-- devicesettings/doze -->
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
     <!-- toolchain -->
     <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="iykequame/prebuilts_gcc_arm_eabi_4.9" remote="github" revision="master" /> -->
     <!-- toolchain/GNU-->
