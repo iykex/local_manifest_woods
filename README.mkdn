@@ -1,4 +1,4 @@
-_LineageOS 14.1 for Moto E4 Device_
+_Atomic-OS for Moto E4 Device_
 ------------------------------------
 
 ![Motorola Moto E4](/device/motorola-moto-e4.jpg "Motorola Moto E4")
@@ -6,13 +6,13 @@ _LineageOS 14.1 for Moto E4 Device_
 
 Create directories
 ```
-	$ mkdir aex
-	$ cd los-aex
+	$ mkdir aos
+	$ cd aos
 ```
 the local manifests:
 ```
-	$ repo init -u git://github.com/AospExtended/manifest.git -b 7.x
-	$ git clone https://github.com/iykequame/local_manifest_woods -b AEX-7.x .repo/local_manifests
+	$ repo init -u https://github.com/Atomic-OS/platform_manifest.git -b n-mr2
+	$ git clone https://github.com/iykequame/local_manifest_woods -b Atomix-N .repo/local_manifests
 ```
 Then sync up with this command:
 ```
