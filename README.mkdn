@@ -27,7 +27,7 @@ _Building from source_
 	$ ./check-patches.sh
 	$ ./apply-patches.sh
 	$ . build/envsetup.sh
-  	$ lunch aos_devicecodename-userdebug
+  	$ lunch aos_woods-userdebug
   	$ mka atomic
 ```
 -------------
